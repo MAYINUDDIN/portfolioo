@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import resume from '../../assets/resume.pdf'
 const Navbar = () => {
     return (
@@ -22,11 +23,11 @@ const Navbar = () => {
                 </div>
                 <div class="navbar-center hidden lg:flex drop-shadow-lg ">
                     <ul class="menu menu-horizontal text-white text-md p-0">
-                        <li className='ml-48'><a>HOME</a></li>
-                        <li><a>ABOUT ME</a></li>
-                        <li><a>SERVICES</a></li>
-                        <li><a>BLOGS</a></li>
-                        <li><a>CONTACT ME</a></li>
+                        <li className='ml-48'><NavLink to='/'>HOME</NavLink></li>
+                        <li className='ml-2'><NavLink to='about'>ABOUT ME</NavLink></li>
+                        <li className='ml-2'> <NavLink to='service'>SERVICES</NavLink></li>
+                        <li className='ml-2'><a>BLOGS</a></li>
+                        <li className='ml-2'><a>CONTACT ME</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end mr-12">
