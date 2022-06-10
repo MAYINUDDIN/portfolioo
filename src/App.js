@@ -1,6 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Contact from './Pages/Contact';
 
 import About from './Pages/Home/About';
 import Home from './Pages/Home/Home';
@@ -17,6 +18,7 @@ function App() {
         <Route path='about' element={<About />}>About</Route>
         <Route path='service' element={<Services />}>Services</Route>
         <Route path='projects' element={<Projects />}>Services</Route>
+        <Route path='contact-me' element={<Contact />}>Services</Route>
       </Routes>
 
 

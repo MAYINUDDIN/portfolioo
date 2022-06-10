@@ -27,7 +27,7 @@ const Navbar = () => {
                         <li className='ml-2'><NavLink to='about'>ABOUT ME</NavLink></li>
                         <li className='ml-2'> <NavLink to='service'>SERVICES</NavLink></li>
                         <li className='ml-2'><a>BLOGS</a></li>
-                        <li className='ml-2'><a>CONTACT ME</a></li>
+                        <li className='ml-2'><NavLink to='contact-me'>CONTACT ME</NavLink></li>
                     </ul>
                 </div>
                 <div class="navbar-end mr-12">
