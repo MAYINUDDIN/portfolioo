@@ -41,7 +41,7 @@ const Contact = () => {
                         <input type="text" placeholder="Your Name" name='name' class="input input-bordered input-error w-full max-w-xs" resource='' />
                     </div>
                     <div className='mt-3'>
-                        <input type="text" value='mayindiu@gmail.com' name='email' class="input input-bordered input-error w-full max-w-xs" />
+                        <input type="text" name='email' class="input input-bordered input-error w-full max-w-xs" />
                     </div>
                     <div className='mt-3'>
                         <input type="text" placeholder="Message" name='message' class="input input-bordered input-lg w-full max-w-xs" />
