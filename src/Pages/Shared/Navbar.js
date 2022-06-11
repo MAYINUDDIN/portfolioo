@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
 
         <div className=''>
-            <div class="navbar bg-primary lg:px-24">
+            <div class=" navbar bg-primary lg:px-32">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -13,18 +13,19 @@ const Navbar = () => {
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li className='ml-1'><NavLink to='/'>HOME</NavLink></li>
-                            <li className='ml-1'><NavLink to='about'>ABOUT ME</NavLink></li>
+                            <li className='ml-1'><NavLink to='about-details'>ABOUT ME</NavLink></li>
                             <li className='ml-1'> <NavLink to='service'>SERVICES</NavLink></li>
                             <li className='ml-1'><a>BLOGS</a></li>
                             <li className='ml-1'><NavLink to='contact-me'>CONTACT ME</NavLink></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-lg  lg:text-2xl text-white drop-shadow-lg">MAYIN UDDIN</a>
+                    <a class="normal-case text-lg  lg:text-2xl text-white drop-shadow-lg 
+                    hover:scale-75 duration-1000"> <NavLink to='/'>MAYIN UDDIN</NavLink></a>
                 </div>
                 <div class="navbar-center hidden lg:flex drop-shadow-lg ">
                     <ul class="menu menu-horizontal text-white text-md p-0">
-                        <li className='ml-48'><NavLink to='/'>HOME</NavLink></li>
-                        <li className='ml-2'><NavLink to='about'>ABOUT ME</NavLink></li>
+                        <li className='ml-64'><NavLink to='/'>HOME</NavLink></li>
+                        <li className='ml-2'><NavLink to='about-details'>ABOUT ME</NavLink></li>
                         <li className='ml-2'> <NavLink to='service'>SERVICES</NavLink></li>
                         <li className='ml-2'><a>BLOGS</a></li>
                         <li className='ml-2'><NavLink to='contact-me'>CONTACT ME</NavLink></li>

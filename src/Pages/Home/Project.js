@@ -9,9 +9,9 @@ const Project = () => {
     return (
         <div className=' p-3 mb-3'>
             <h1 class="lg:text-3xl font-bold drop-shadow lg:mt-12 text-primary">MY PROJECTS</h1>
-            <div className='grid px-6 lg:px-20 grid-col-4 lg:grid-cols-3 gap-3 m-3 justify-center  mt-5 mb-5 flex justify-center'>
+            <div className='grid px-6 lg:px-20 grid-col-4 lg:grid-cols-3 gap-3 m-3 justify-center  mt-5 mb-5 flex justify-center '>
                 <div class="card bordered rounded w-96 bg-base-100 shadow-xl">
-                    <figure><img className='h-56 w-96' src={p} alt="" /></figure>
+                    <figure><img className='h-56 w-96 hover:scale-110 duration-1000' src={p} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold text-lg  drop-shadow ">
                             ICAS Internation Responsive Website
@@ -33,7 +33,7 @@ const Project = () => {
                 </div>
 
                 <div class="card bordered rounded w-96 bg-base-100 shadow-xl">
-                    <figure><img className='h-56 w-96' src={p1} alt="Shoes" /></figure>
+                    <figure><img className='h-56 w-96 hover:scale-110 duration-1000' src={p1} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold text-lg  drop-shadow ">
                             Fareast Islami life  Website
@@ -52,7 +52,7 @@ const Project = () => {
                 </div>
 
                 <div class="card bordered rounded w-96 bg-base-100 shadow-xl">
-                    <figure><img className='h-56 w-96' src={p2} alt="Shoes" /></figure>
+                    <figure><img className='h-56 w-96 hover:scale-110 duration-1000' src={p2} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold text-lg  drop-shadow ">
                             My Money Bank

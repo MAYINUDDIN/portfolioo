@@ -9,7 +9,7 @@ const Services = () => {
             <h1 class="lg:text-3xl font-bold drop-shadow lg:mt-12 text-primary">SERVICES</h1>
             <div className='grid px-6 lg:px-24 grid-col-4 lg:grid-cols-3 gap-3 m-3 justify-center  mt-5 mb-5 flex justify-center'>
                 <div class="card bordered rounded w-96 bg-base-100 shadow-xl">
-                    <figure><img className='h-56 w-96' src={service} alt="Shoes" /></figure>
+                    <figure><img className='h-56 w-96 hover:scale-75 duration-1000' src={service} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold text-lg  drop-shadow ">
                             Plain Html CSS Javascript Website
@@ -27,7 +27,7 @@ const Services = () => {
                 </div>
 
                 <div class="card bordered rounded w-96 bg-base-100 shadow-xl">
-                    <figure><img className='h-56 w-96' src={service1} alt="Shoes" /></figure>
+                    <figure><img className='h-56 w-96 hover:scale-75 duration-1000' src={service1} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold text-lg  drop-shadow ">
                             React  Responsive Material Design
@@ -46,7 +46,7 @@ const Services = () => {
                 </div>
 
                 <div class="card bordered rounded w-96 bg-base-100 shadow-xl">
-                    <figure><img className='h-56 w-96' src={service2} alt="Shoes" /></figure>
+                    <figure><img className='h-56 w-96 hover:scale-75 duration-1000' src={service2} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold text-lg  drop-shadow ">
                             MERN Stack Web Application
