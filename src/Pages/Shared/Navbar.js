@@ -12,11 +12,11 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white font-bold" fill="none" viewBox="0 0 28 28" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>HOME</a></li>
-                            <li><a>ABOUT ME</a></li>
-                            <li><a>SERVICES</a></li>
-                            <li><a>BLOGS</a></li>
-                            <li><a>CONTACT ME</a></li>
+                            <li className='ml-1'><NavLink to='/'>HOME</NavLink></li>
+                            <li className='ml-1'><NavLink to='about'>ABOUT ME</NavLink></li>
+                            <li className='ml-1'> <NavLink to='service'>SERVICES</NavLink></li>
+                            <li className='ml-1'><a>BLOGS</a></li>
+                            <li className='ml-1'><NavLink to='contact-me'>CONTACT ME</NavLink></li>
                         </ul>
                     </div>
                     <a class="btn btn-ghost normal-case text-lg  lg:text-2xl text-white drop-shadow-lg">MAYIN UDDIN</a>
