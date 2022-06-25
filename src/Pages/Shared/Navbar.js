@@ -19,7 +19,7 @@ const Navbar = () => {
                             <li className='ml-1'><NavLink to='contact-me'>CONTACT ME</NavLink></li>
                         </ul>
                     </div>
-                    <a class="normal-case text-lg  lg:text-2xl text-white drop-shadow-lg 
+                    <a class=" btn btn-primary normal-case text-lg  lg:text-2xl text-white drop-shadow-lg 
                     hover:scale-75 duration-1000"> <NavLink to='/'>MAYIN UDDIN</NavLink></a>
                 </div>
                 <div class="navbar-center hidden lg:flex drop-shadow-lg ">
